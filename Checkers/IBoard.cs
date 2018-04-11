@@ -21,7 +21,7 @@ namespace Checkers
         IEnumerable<int> NormalMoves(IBoard board);
         IEnumerable<int> CapturingMoves(IBoard board);
         Status Status { get; }
-        Color color { get; }
+        Color Color { get; }
         int Position { get; }
         void Move(int destination);
     }
