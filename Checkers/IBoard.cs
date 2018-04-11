@@ -33,7 +33,7 @@ namespace Checkers
 
     }
 
-    public interface Referee
+    public interface IReferee
     {
         IPlayer Winner();
         bool IsDraw();
