@@ -1,0 +1,11 @@
+C:\Users\Luke\Checkers\Checkers\bin\Debug\netcoreapp2.0\Checkers.deps.json
+C:\Users\Luke\Checkers\Checkers\bin\Debug\netcoreapp2.0\Checkers.runtimeconfig.json
+C:\Users\Luke\Checkers\Checkers\bin\Debug\netcoreapp2.0\Checkers.runtimeconfig.dev.json
+C:\Users\Luke\Checkers\Checkers\bin\Debug\netcoreapp2.0\Checkers.dll
+C:\Users\Luke\Checkers\Checkers\bin\Debug\netcoreapp2.0\Checkers.pdb
+C:\Users\Luke\Checkers\Checkers\obj\Debug\netcoreapp2.0\Checkers.csprojResolveAssemblyReference.cache
+C:\Users\Luke\Checkers\Checkers\obj\Debug\netcoreapp2.0\Checkers.csproj.CoreCompileInputs.cache
+C:\Users\Luke\Checkers\Checkers\obj\Debug\netcoreapp2.0\Checkers.AssemblyInfoInputs.cache
+C:\Users\Luke\Checkers\Checkers\obj\Debug\netcoreapp2.0\Checkers.AssemblyInfo.cs
+C:\Users\Luke\Checkers\Checkers\obj\Debug\netcoreapp2.0\Checkers.dll
+C:\Users\Luke\Checkers\Checkers\obj\Debug\netcoreapp2.0\Checkers.pdb
