@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Checkers
 {
-    class Board : IBoard
+    public class Board : IBoard
     {
         public void Move(IPiece piece, int destination)
         {
