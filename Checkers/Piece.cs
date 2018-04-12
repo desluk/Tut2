@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Checkers
 {
-     class Piece : IPiece
+     public class Piece : IPiece
     {
         public Piece (Color c, int pos)
         {
@@ -28,9 +28,44 @@ namespace Checkers
             throw new NotImplementedException();
         }
 
-        public virtual IEnumerable<int> NormalMoves(IBoard board)
+        public virtual IEnumerable<int> NormalMoves(IBoard b)
         {
-            throw new NotImplementedException();
+            List<int> result = new List<int>();
+            int col = (Position - 1) % 4;
+            int row = (Position - 1) / 4;
+            bool sideSpace = (col == 0 && row % 2 == 1) || (col == 3 && row % 2 == 0);
+            if (Color == Color.Black)
+            {
+                int next = Position + 3;
+                if (row % 2 == 0 || col == 0) next++;
+                if (next <= 32 && b.Occupant(next) == null)
+                {
+                    result.Add(next);
+                }
+                next++;
+                if (!sideSpace && next <= 32 && b.Occupant(next) == null)
+                {
+                    result.Add(next);
+                }
+            }
+            else
+            {
+                
+                    int next = Position - 3;
+                    if (row % 2 == 1 || col == 3) next--;
+                    if (next >= 1 && b.Occupant(next)==null)
+                    {
+                        result.Add(next);
+                    }
+                    next--;
+                    if (!sideSpace && next >= 1 && b.Occupant(next) == null)
+                    {
+                        result.Add(next);
+                    }
+                
+            }
+            return result;
+
         }
     }
 }
